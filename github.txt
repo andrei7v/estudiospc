@@ -36,7 +36,7 @@ git clone username@host:/path/to/repository
 
 
 
-Crea una nueva rama llamada "feature_x" y c·mbiate a ella usando
+Crea una nueva rama llamada "feature_x" y c√°mbiate a ella usando
 git checkout -b feature_x
 
 vuelve a la rama principal
@@ -48,3 +48,7 @@ git branch -d feature_x
 
 ///////////actualizar tu repositorio local al comit mas nuevo
 git pull
+
+
+
+.
