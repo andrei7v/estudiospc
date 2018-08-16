@@ -22,3 +22,7 @@ git push -u origin master
 
 eliminar ultimo commit
 git revert HEAD
+
+
+grabar datos
+git config --global credential.helper wincred
