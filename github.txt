@@ -1,0 +1,24 @@
+crear carpeta / crear repositorio
+
+ingresar a carpeta
+y abrir consola git
+
+inicializar git en carpeta
+$ git init
+
+agrege todo al commit
+$git add -A
+
+crear un comit en local
+git commit -m "primer commit"
+
+
+direccionar a repositorio
+git remote add origin https://github.com/andrei7v/estudiospc.git
+
+
+subir los commit a repositorio
+git push -u origin master
+
+eliminar ultimo commit
+git revert HEAD
