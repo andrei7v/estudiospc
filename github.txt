@@ -60,3 +60,20 @@ $ git config --global user.email johndoe@example.com
 
 codigo arreglo en arch existente
 git branch --set-upstream-to=origin/master master
+
+
+Esta instrucción obliga a git a almacenar las credenciales (usuario y contraseña) en un fichero. 
+Por defecto, estos datos se guardan durante 15 minutos.
+git config --global credential.helper store
+
+
+30 minutos:   git config --global credential.helper 'cache --timeout=1800'   
+1 hora: git config --global credential.helper 'cache --timeout=3600'
+12 horas: git config --global credential.helper 'cache --timeout=43200'
+24 horas: git config --global credential.helper 'cache --timeout=86400'
+
+
+
+
+
+
