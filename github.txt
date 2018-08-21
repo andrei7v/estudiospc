@@ -1,0 +1,56 @@
+﻿crear carpeta / crear repositorio
+
+ingresar a carpeta
+y abrir consola git
+
+inicializar git dentro de una carpeta nueva
+git init
+
+agrege todo para commit
+git add <filename>
+git add -A
+git add .
+
+crear un comit en local
+git commit -m "primer commit"
+
+
+direccionar a repositorio
+git remote add origin https://github.com/andrei7v/estudiospc.git
+
+
+subir los commit a repositorio
+git push -u origin master
+
+eliminar ultimo commit
+git revert HEAD
+
+
+
+
+
+///////////////////// hacer una copia
+git clone username@host:/path/to/repository
+////////////////////
+
+
+
+Crea una nueva rama llamada "feature_x" y cámbiate a ella usando
+git checkout -b feature_x
+
+vuelve a la rama principal
+git checkout master
+
+y borra la rama
+git branch -d feature_x
+
+
+///////////actualizar tu repositorio local al comit mas nuevo
+git pull
+
+////////////////////////////////////////
+grabar datos
+git config --global credential.helper wincred
+
+$ git config --global user.name "Andrei Paredes"
+$ git config --global user.email johndoe@example.com
