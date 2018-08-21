@@ -55,3 +55,8 @@ git config --global credential.helper wincred
 $ git config --global user.name "Andrei Paredes"
 $ git config --global user.email johndoe@example.com
 
+
+
+
+codigo arreglo en arch existente
+git branch --set-upstream-to=origin/master master
