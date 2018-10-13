@@ -76,4 +76,6 @@ git config --global credential.helper store
 
 
 
-
+agregar un archivo olvidado en el commit hecho
+$git add archivo-que-olvide-agregar
+$git commit --amend --no-edit
