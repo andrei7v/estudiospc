@@ -1,0 +1,4 @@
+ROBOCOPY /s /R:3 
+
+https://norfipc.com/comandos/como-usar-comando-robocopy-ejemplos.html
+https://www.youtube.com/watch?v=0kIfIza9og0
